@@ -7,7 +7,7 @@ import (
 var (
 	serviceType    string
 	projectName    string
-	supportedTypes = []string{"HTTP", "KAFKAC", "GRPC", "TASK"}
+	supportedTypes = []string{"HTTP", "KAFKA", "GRPC", "TASK"}
 )
 
 var RootCmd = &cobra.Command{
